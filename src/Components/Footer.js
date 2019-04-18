@@ -5,10 +5,9 @@ export default function Footer(props) {
 
     return (
         //FOOTER
-        <div className='footer'>
-            <footer>
-                <h2>Copyright blablabla 2040</h2>
-                <h3>Contact details etc etc</h3>    
+        <div className='row'>
+            <footer className='col-12 text-center bg-danger'>
+                <h4>Copyright blablabla 2040 <br/>asasdasd </h4>
             </footer>
         </div>
     );

@@ -1,6 +1,5 @@
 import React from 'react';
 import { UncontrolledCarousel } from 'reactstrap';
-import './HomeBody.css';
 
 export default function Body(props) {
 
@@ -26,12 +25,14 @@ var items = [
   }
 ];
 
-var carousel = () => <UncontrolledCarousel className='col-6 h-75' items={items} />;
+var carousel = () => <UncontrolledCarousel className='col-6' items={items} />;
 
 
 return (
   <main>
-    {carousel()}
+    <div className='row'>
+      {carousel()}
+    </div>
   </main>
 );
 
