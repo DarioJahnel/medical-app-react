@@ -7,7 +7,6 @@ export default function Staff(props) {
         return(
             <React.Fragment>
                 <StaffBody />
-                <Footer />
             </React.Fragment>
         )
 }
