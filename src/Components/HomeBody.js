@@ -6,10 +6,10 @@ export default function Body(props) {
 // CAROUSEL
 var items = [
   {
-    src: 'https://picsum.photos/500/300/?random',
+    src: 'https://picsum.photos/500/200/?random',
     altText: 'Slide 1',
     caption: 'Slide 1',
-    header: 'Slide 1 Header'
+		header: 'Slide 1 Header'
   },
   {
     src: 'https://picsum.photos/500/300/?random',
@@ -18,7 +18,7 @@ var items = [
     header: 'Slide 2 Header'
   },
   {
-    src: 'https://picsum.photos/500/300/?random',
+    src: 'https://picsum.photos/500/100/?random',
     altText: 'Slide 3',
     caption: 'Slide 3',
     header: 'Slide 3 Header'
