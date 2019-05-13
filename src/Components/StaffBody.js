@@ -111,7 +111,7 @@ export default class StaffBody extends React.Component {
 		staffEntries = staffEntries.slice(initialPosition, initialPosition + entriesToShow);
 
 		return (
-			<div className='container-fluid'>
+			<>
 				<StaffTableFilterForm
 					className='Row'
 					getFilterResult={this.getFilterResult}
@@ -126,7 +126,7 @@ export default class StaffBody extends React.Component {
 					buttonCount={buttonCount}
 					onClick={this.selectStaffTablePageNumber} />
 				<Link to='/staff/new' className='btn btn-primary m-1'>New Staff</Link>
-			</div>
+			</>
 		);
 	}
 }
